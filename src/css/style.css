@@ -36,11 +36,10 @@ main#area-principal div#personagem {
   border-radius: 10px 10px 0 0;
   position: relative;
   top: 150px;
-  animation: personagem 500ms infinite linear;
 }
 
 .animar {
-  
+  animation: personagem 500ms infinite linear;  
 }
 
 @keyframes personagem {
@@ -65,7 +64,7 @@ main#area-principal div#obstaculo {
   position: relative;
   top: 130px;
   left: 480px;
-  animation: obstaculo 1s infinite;
+  animation: obstaculo 1s infinite linear;
 }
 
 @keyframes obstaculo {
@@ -73,6 +72,6 @@ main#area-principal div#obstaculo {
     left: 480px;
   }
   100% {
-    left: -40px;
+    left: 0px;
   }
 }
