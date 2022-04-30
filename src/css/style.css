@@ -36,10 +36,11 @@ main#area-principal div#personagem {
   border-radius: 10px 10px 0 0;
   position: relative;
   top: 150px;
+  animation: personagem 500ms infinite linear;
 }
 
 .animar {
-  animation: personagem 500ms infinite linear;
+  
 }
 
 @keyframes personagem {
